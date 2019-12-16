@@ -29,7 +29,6 @@ const activities_list = [
 client.on("message", (message) => {
     if(message.channel.type === 'dm') return;
     if(message.author.type === 'bot') return;
-    if(message.author.id !== '323021672489811968')  return;
     let args = message.content.split(" ");
     let command = args[0];
     let cmd = CH.getCommand(command);
