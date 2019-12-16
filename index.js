@@ -6,7 +6,7 @@ const CH = new CommandHandler({
     prefix: ["?"]
 });
 const activities_list = [
-    "TEST"
+    "TEST",
     "Boire un café", 
     "Prendre une pause",
     "Gratter des CER", 
