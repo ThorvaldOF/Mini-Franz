@@ -147,7 +147,7 @@ module.exports = class test {
                         title: "🍺Commandes inutiles🍺",
                         fields: [
                           {
-                            name: "?sah\n?oh non\n?yohann\n?furry\n?pause\n?BTP",
+                            name: "?sah\n?oh non\n?yohann\n?furry\n?pause\n?BTP\n?amour",
                             value: "---"
                         },
                           {
