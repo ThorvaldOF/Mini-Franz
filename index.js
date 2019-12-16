@@ -5,15 +5,15 @@ const CH = new CommandHandler({
     folder: __dirname + "/commands/",
     prefix: ["?"]
 });
-
 const activities_list = [
+    "TEST"
     "Boire un café", 
     "Prendre une pause",
-    "Finir son CER", 
+    "Gratter des CER", 
     "Se mettre une race",
     "Se coder lui-même",
     "Passer au Auchan",
-    "Faire un prosit",
+    "Attendre les vacances",
     "Faire des memes de Abbas",
   ];
 
@@ -21,7 +21,7 @@ const activities_list = [
     console.log(`${client.user.username} est en ligne!`);
   
     setInterval(() => {
-      const index = Math.floor(Math.random() * (activities_list.length - 1) + 1);
+      const index = Math.floor(Math.random() * (activities_list.length + 1 - 1) + 1);
       client.user.setActivity(activities_list[index]);
   }, 100000);
   });
