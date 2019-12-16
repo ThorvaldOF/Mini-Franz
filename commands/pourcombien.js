@@ -10,15 +10,12 @@ module.exports = class test {
         let choisi = args[2];
         if(choisi == 0){
             message.channel.send("Arrêtes de tricher FDP, on avait dit pas de zéro")
-        } else {
-                if(choisi >= args[1]){
-                    if(nombre == choisi){
-                    message.channel.send(`J'ai choisi ${nombre}, TOZ`)
-                    } else {
-                    message.channel.send(`J'ai choisi ${nombre}, tu as gagné`)
-                    }
-                } else {
-                message.channel.send(`T'es vraiment une grosse merde mdrr`)
-                }
+        } else {           
+           if(nombre == choisi){
+            message.channel.send(`J'ai choisi ${nombre}, TOZ`)
+            } else {
+            message.channel.send(`J'ai choisi ${nombre}, tu as gagné`)
+            }
+                
     }
 }}
