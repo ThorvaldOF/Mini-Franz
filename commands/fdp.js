@@ -16,7 +16,7 @@ module.exports = class test {
 
         const embed = new RichEmbed()
             .setColor("#000000")
-            .addField(`👽 **${person.displayName}** a un niveau de filsdeputerie de:`,
+            .addField(`👽 **${person.displayName}** est un fils de pute à:`,
             `💀 ${Math.floor(love)}%\n\n${loveLevel}`);
 
         message.channel.send(embed);
